@@ -27,10 +27,15 @@
 
 1. 克隆项目到本地
 2. 安装依赖项: `pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/`
-3. 在手机上将支持的证券的持仓截图（手机长截图）放到项目的screenshots文件夹，没有文件夹可以自己创建
+3. 在手机上将支持的证券的持仓截图（手机长截图），放到项目的screenshots文件夹，没有文件夹可以自己创建
 4. 运行：`python portfolio_analyzer.py --image screenshots --use_saved_ocr`
 
 运行完后会生成一个portfolio_sunburst.html，浏览器打开即可
+
+## 配置项
+
+- 查看portfolio_analyzer.py
+- 查看sunburst/classify.py
 
 ## 待解决问题
 
